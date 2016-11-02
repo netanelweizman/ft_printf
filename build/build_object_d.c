@@ -44,6 +44,7 @@ void			build_object_d(t_object *obj)
 	int			negativ;
 	intmax_t	value;
 
+	negativ = 0;
 	value = init_object_d_value(obj);
 	while (value != 0)
 	{
